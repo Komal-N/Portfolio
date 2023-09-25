@@ -1,0 +1,82 @@
+.project-container {
+    padding: 16px;
+}
+
+.project-item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin: 16px auto;
+    width: 70%;
+    padding: 16px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.project-item-image {
+    width: 52%;
+    background-color: #040404;
+}
+
+.project-item-image img {
+    transition: all .2s ease-in;
+    cursor: pointer;
+    opacity: 0.5;
+}
+
+.project-item-image:hover img {
+    opacity: 1;
+}
+
+.project-item-details {
+    width: 60%;
+    z-index: 99;
+    text-align: right;
+    position: absolute;
+    right: 0;
+    padding-right: 16px;
+}
+
+.project-item:nth-child(odd) {
+    flex-direction: row-reverse;
+}
+
+.project-item:nth-child(odd) .project-item-details {
+    text-align: left;
+    left: 0;
+}
+
+.project-item-details h2 {
+    font-size: xx-large;
+}
+
+.project-container p {
+    background-color: #6E07F3;
+    color: white;
+    padding: 24px;
+    margin-bottom: 8px;
+}
+
+.project-skills li {
+    display: inline;
+    margin-right: 8px;
+}
+
+/* Technologies */
+.client-logo {
+    width: 96px;
+    margin-bottom: 16px;
+}
+
+/* Work Experience */
+.work-section-item {
+    text-align: left;
+}
+
+.work-section-item .work-name {
+    font-size: x-large;
+}
+
+.work-section-item .work-title {
+    font-style: italic;
+}
