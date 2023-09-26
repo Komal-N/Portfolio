@@ -126,4 +126,8 @@
         position: relative;
         width: 100%;
     }
+
+    .navbar {
+        visibility: hidden;
+    }
 }
