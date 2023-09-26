@@ -71,6 +71,7 @@
 /* Work Experience */
 .work-section-item {
     text-align: left;
+    margin-bottom: 36px;
 }
 
 .work-section-item .work-name {
@@ -79,4 +80,22 @@
 
 .work-section-item .work-title {
     font-style: italic;
+    margin-bottom: 0;
+}
+
+.work-section-item > div {
+    margin: 16px 0px;
+}
+
+.work-section-item > div ul {
+    margin-left: 16px;
+}
+
+.work-section-item > div ul li {
+    list-style-type: circle;
+}
+
+.work-section-item .flex {
+    display: flex;
+    justify-content: space-between;
 }
