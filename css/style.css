@@ -112,4 +112,18 @@
     .work .column {
         width: 100%;
     }
+
+    .project-item {
+        flex-direction: column !important;
+        width: 100%;
+    }
+
+    .project-item-image {
+        width: 100%;
+    }
+
+    .project-item-details {
+        position: relative;
+        width: 100%;
+    }
 }
