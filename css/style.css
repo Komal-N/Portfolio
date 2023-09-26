@@ -108,6 +108,10 @@
     font-size: 56px;
 }
 
+section a.button {
+    display: none;
+}
+
 @media screen and (max-width: 769px) {
     .work-section-item .flex {
         flex-direction: column;
@@ -133,5 +137,11 @@
 
     .navbar {
         visibility: hidden;
+    }
+
+    .button.is-primary.is-outlined {
+        display: block;
+        border-color: black;
+        color: black;
     }
 }
